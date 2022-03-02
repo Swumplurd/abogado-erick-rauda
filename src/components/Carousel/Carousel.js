@@ -8,7 +8,7 @@ export const Carousel = ({images, id}) => {
                     {
                         images.map((image, i) => {
                             return (
-                                <button type="button" data-bs-target={`#${id}`} data-bs-slide-to={`${i}`} class="active" aria-current="true" aria-label={`Slide ${i + 1}`}></button>
+                                <button key={i} type="button" data-bs-target={`#${id}`} data-bs-slide-to={`${i}`} className="active" aria-current="true" aria-label={`Slide ${i + 1}`}></button>
                             )
                         })
                     }
@@ -17,7 +17,7 @@ export const Carousel = ({images, id}) => {
                     {
                         images.map((image, i)=> {
                             return (
-                                <div className={`carousel-item ${ i === 0 && 'active'}`}>
+                                <div key={i} className={`carousel-item ${ i === 0 && 'active'}`}>
                                     <img src={`${image}`} className="d-block w-100" alt={`${image}`}/>
                                 </div>
                             )
