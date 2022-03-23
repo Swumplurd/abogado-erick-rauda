@@ -3,7 +3,7 @@ import React from 'react'
 export const Navbar = () => {
     return (
         <>
-            <div className="px-5 mb-4 bg-light rounded-3 bg-secondary text-center">
+            <div className="px-5 mb-4 bg-light rounded-3 bg-secondary text-center shadow">
                 <div className="container-fluid pt-5">
                     <h1 className="display-5 fw-bold">Erik Rauda</h1>
                     <p className="fs-4">Doctor en Derecho Penal</p>
