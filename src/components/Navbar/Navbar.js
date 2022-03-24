@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
     return (
         <>
-            <div className="px-5 mb-4 bg-light rounded-3 bg-secondary text-center shadow">
+            <div className="mb-4 bg-light rounded-3 bg-secondary text-center shadow">
                 <div className="container-fluid pt-5">
                     <h1 className="display-5 fw-bold">Erik Rauda</h1>
                     <p className="fs-4">Doctor en Derecho Penal</p>
                 </div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <div className="container-fluid">
+                    <div className="container-fluid justify-content-center">
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
