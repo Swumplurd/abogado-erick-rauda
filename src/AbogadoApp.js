@@ -1,6 +1,6 @@
 import React from 'react';
 import { HomePage } from './components/HomePage/HomePage';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Navbar } from './components/Navbar/Navbar';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
