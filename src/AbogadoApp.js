@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar/Navbar';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { SemblanzaPage } from './components/SemblanzaPage/SemblanzaPage';
+import { SocialBar } from './components/SocialBar/SocialBar';
 
 
 export const AbogadoApp = () => {
@@ -15,6 +16,7 @@ export const AbogadoApp = () => {
                 <div className="row pt-3">
                     <div className="col-12">
                         <Navbar />
+                        <SocialBar/>
                     </div>
                 </div>
             </div>

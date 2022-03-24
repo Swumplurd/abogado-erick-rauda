@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { Carousel } from "../Carousel/Carousel";
 import { Contacto } from "../Contacto/Contacto";
+import { Comentario } from "../Comentario/Comentario";
 
 export const HomePage = () => {
     return (
@@ -43,6 +44,7 @@ export const HomePage = () => {
                             }}
                         />
                     </h3>
+                    <Comentario/>
                 </div>
             </div>
             <div className="row my-4 justify-content-center">
