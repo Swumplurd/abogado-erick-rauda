@@ -1,9 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-
 import { HomePage } from './components/HomePage/HomePage';
+import { Routes, Route, Link } from "react-router-dom";
 import { Navbar } from './components/Navbar/Navbar';
+
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { SemblanzaPage } from './components/SemblanzaPage/SemblanzaPage';
+
 
 export const AbogadoApp = () => {
     return (
@@ -16,7 +19,10 @@ export const AbogadoApp = () => {
                 </div>
             </div>
             <div className="container">
-                <HomePage />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/semblanza" element={<SemblanzaPage />} />
+                </Routes>
             </div>
         </>
     )
