@@ -2,12 +2,8 @@ import React from 'react';
 import { HomePage } from './components/HomePage/HomePage';
 import { Routes, Route } from "react-router-dom";
 import { Navbar } from './components/Navbar/Navbar';
-
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { SemblanzaPage } from './components/SemblanzaPage/SemblanzaPage';
 import { SocialBar } from './components/SocialBar/SocialBar';
-
 
 export const AbogadoApp = () => {
     return (

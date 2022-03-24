@@ -8,7 +8,7 @@ export const Carousel = ({images, id}) => {
                     {
                         images.map((image, i) => {
                             return (
-                                <button key={i} type="button" data-bs-target={`#${id}`} data-bs-slide-to={`${i}`} className="active" aria-current="true" aria-label={`Slide ${i + 1}`}></button>
+                                <button key={i} type="button" data-bs-target={`#${id}`} data-bs-slide-to={`${i}`} className={`${ i === 0 && 'active'}`} aria-current="true" aria-label={`Slide ${i + 1}`}></button>
                             )
                         })
                     }

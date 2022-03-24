@@ -28,8 +28,8 @@ export const HomePage = () => {
                         "/assets/erik_rauda_16.jpg",
                     ]} id={'primer-carousel'}/>
                 </div>
-                <div className="col-lg-6">
-                    <h3 className="display-6 text-center">
+                <div className="col-lg-6 d-flex align-items-center">
+                    <h3 className="display-4 text-center">
                         "La verdadera diferencia se genera
                         <Typewriter
                             options={{
