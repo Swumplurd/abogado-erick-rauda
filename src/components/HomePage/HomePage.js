@@ -12,21 +12,21 @@ export const HomePage = () => {
                 </div>
             </div>
             <div className="row justify-content-center">
-            <h3 className="display-4 text-center">
-                        "La verdadera diferencia se genera
-                        <Typewriter
-                            options={{
-                                strings: [
-                                    'creando"',
-                                    'proponiendo"',
-                                    'trabajando"',
-                                    'moviendote"',
-                                ],
-                                autoStart: true,
-                                loop: true,
-                            }}
-                        />
-                    </h3>
+                <h3 className="display-4 text-center">
+                    "La verdadera diferencia se genera
+                    <Typewriter
+                        options={{
+                            strings: [
+                                'creando"',
+                                'proponiendo"',
+                                'trabajando"',
+                                'moviendote"',
+                            ],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                </h3>
             </div>
         </>
     );

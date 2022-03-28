@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <div className="container-fluid my-auto py-3">
                     <h1 className="display-5 fw-bold">Erik Rauda</h1>
                     <p className="fs-4">Doctor en Derecho Penal</p>
-                    <a data-auto-recognition="true" href="mailto:contacto@erikrauda.com">contacto@erikrauda.com</a>
+                    <a className="text-decoration-none text-dark" data-auto-recognition="true" href="mailto:contacto@erikrauda.com">contacto@erikrauda.com</a>
                 </div>
             </div>
             <div className="mb-4 bg-light rounded-3 bg-secondary text-center shadow">
