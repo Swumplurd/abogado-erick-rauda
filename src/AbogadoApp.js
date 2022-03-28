@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import { Navbar } from './components/Navbar/Navbar';
 import { SemblanzaPage } from './components/SemblanzaPage/SemblanzaPage';
 import { SocialBar } from './components/SocialBar/SocialBar';
+import { ContactoPage } from './components/ContactoPage/ContactoPage';
 
 export const AbogadoApp = () => {
     return (
@@ -20,6 +21,7 @@ export const AbogadoApp = () => {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/semblanza" element={<SemblanzaPage />} />
+                    <Route path="/contacto" element={<ContactoPage />} />
                 </Routes>
             </div>
         </>

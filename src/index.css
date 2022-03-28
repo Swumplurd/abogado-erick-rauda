@@ -1,4 +1,16 @@
 body {
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: url('/public/assets/styling/low-poly-grid-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.aspect-radio-16-9 {
+    width: 80%;
+    height: calc(80% / (16/9));
 }
