@@ -35,7 +35,7 @@ export const Navbar = () => {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link fw-bold text-decoration-underline" to="/">
+                                    <Link className="nav-link fw-bold text-decoration-underline" to="/videos">
                                         <i className="bi bi-film me-2"></i>Videos
                                     </Link>
                                 </li>
