@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/abogado-erick-rauda/static/css/main.cccea330.css",
-    "main.js": "/abogado-erick-rauda/static/js/main.472508ba.js",
+    "main.js": "/abogado-erick-rauda/static/js/main.68c38496.js",
     "static/media/bootstrap-icons.woff?": "/abogado-erick-rauda/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
     "static/media/bootstrap-icons.woff2?": "/abogado-erick-rauda/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
     "static/media/low-poly-grid-haikei.svg": "/abogado-erick-rauda/static/media/low-poly-grid-haikei.72f14016c61a4ef1e19d.svg",
     "index.html": "/abogado-erick-rauda/index.html",
     "main.cccea330.css.map": "/abogado-erick-rauda/static/css/main.cccea330.css.map",
-    "main.472508ba.js.map": "/abogado-erick-rauda/static/js/main.472508ba.js.map"
+    "main.68c38496.js.map": "/abogado-erick-rauda/static/js/main.68c38496.js.map"
   },
   "entrypoints": [
     "static/css/main.cccea330.css",
-    "static/js/main.472508ba.js"
+    "static/js/main.68c38496.js"
   ]
 }
