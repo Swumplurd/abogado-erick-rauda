@@ -9,8 +9,3 @@ body {
     text-align: justify;
     text-justify: inter-word; 
 }
-
-.aspect-radio-16-9 {
-    width: 80%;
-    height: calc(80% / (16/9));
-}
