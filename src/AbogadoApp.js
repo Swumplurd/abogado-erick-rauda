@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar/Navbar';
 import { SemblanzaPage } from './components/SemblanzaPage/SemblanzaPage';
 import { SocialBar } from './components/SocialBar/SocialBar';
 import { ContactoPage } from './components/ContactoPage/ContactoPage';
+import { Videos } from './components/Videos/Videos';
 
 export const AbogadoApp = () => {
     return (
@@ -22,6 +23,7 @@ export const AbogadoApp = () => {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/semblanza" element={<SemblanzaPage />} />
                     <Route path="/contacto" element={<ContactoPage />} />
+                    <Route path="/videos" element={<Videos/>} />
                 </Routes>
             </div>
         </>
